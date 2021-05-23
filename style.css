@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    margin: auto;
+}
+
+.banner{
+    background: radial-gradient(#fff, #ffd6d6);
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 0.6rem 2.3rem;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background: #563434;
+}
+
+.logo img{
+    width: 12em;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.navbar__shop {
+    max-width: 2em;
+    max-height: 2em;
+    margin-left: 2rem;
+}
+
+.navbar__menu{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar__menu ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.navbar__menu ul li{
+    display: inline-block;
+    padding-left: 1.5em;
+}
+
+.navbar__menu ul li a, p{
+    text-decoration: none;
+    color: #555;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner .row{
+    margin-top: 6rem;
+}
+
+.row__col{
+    flex-basis: 50%;
+}
+
+.row__col img {
+    max-width: 100%;
+}
+
+.row__col h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 2rem 0;
+}
+
+
+/*Categories section*/
+.categories{
+    margin: 4rem 0;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 12rem;
+}
+
+.container__title{
+    align-items: center;
+    padding-left: 27rem;
+    font-size: 30px;
+    color:#555;
+}
+
+.title_styles{
+    border-bottom: #ff523b solid 0.4rem;
+    width: 8%;
+    margin: 0.6rem 0 4rem 32rem;
+    height: 0.4rem;
+    border-radius: 4rem;
+    
+}
+/*
+.container__title::after{
+    content:'';
+    background: #ff523b;
+    width: 5rem;
+    height: 0.25rem;
+    border-radius: 0.8rem;
+    position: absolute;
+
+}*/
+
+.row__col2{
+    flex-basis: 30%;
+    min-width: 30%;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.row__col2 img{
+    width: 100%;
+}
+
+.row__col3{
+    flex-basis: 25%;
+    padding: 1rem;
+    min-width: 12rem;
+    margin-bottom: 3rem;
+    transition: transform 0.5s;
+}
+
+.row__col3:hover{
+    transform: translateY(-5px);
+}
+
+.row__col3 img{
+    width: 100%;
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.row__col3 p{
+    font-size: 1.5rem;
+}
